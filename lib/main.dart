@@ -192,37 +192,37 @@ class _HabitListScreenState extends State<HabitListScreen> {
                   IconButton(
                     icon: Icon(Icons.access_time),
                     onPressed: () {
-                      selectedIcon = Icons.access_time; // Relógio
+                      selectedIcon = Icons.access_time;
                     },
                   ),
                   IconButton(
                     icon: Icon(Icons.bed),
                     onPressed: () {
-                      selectedIcon = Icons.bed; // Cama
+                      selectedIcon = Icons.bed;
                     },
                   ),
                   IconButton(
                     icon: Icon(Icons.hotel),
                     onPressed: () {
-                      selectedIcon = Icons.hotel; // Sono
+                      selectedIcon = Icons.hotel;
                     },
                   ),
                   IconButton(
                     icon: Icon(Icons.school),
                     onPressed: () {
-                      selectedIcon = Icons.school; // Estudo
+                      selectedIcon = Icons.school;
                     },
                   ),
                   IconButton(
                     icon: Icon(Icons.work),
                     onPressed: () {
-                      selectedIcon = Icons.work; // Trabalho
+                      selectedIcon = Icons.work;
                     },
                   ),
                   IconButton(
                     icon: Icon(Icons.self_improvement),
                     onPressed: () {
-                      selectedIcon = Icons.self_improvement; // Meditação
+                      selectedIcon = Icons.self_improvement;
                     },
                   ),
                 ],
@@ -309,7 +309,6 @@ class _HabitListScreenState extends State<HabitListScreen> {
           IconButton(
             icon: Icon(Icons.bar_chart),
             onPressed: () {
-              // Navegar para a tela de gráficos de progresso
             },
           ),
         ],
@@ -381,7 +380,6 @@ class _HabitListScreenState extends State<HabitListScreen> {
               },
             ),
           ),
-          // Área do gráfico ocupando 40% da tela
           SizedBox(
             height: MediaQuery.of(context).size.height * 0.4,
             child: Center(
